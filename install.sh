@@ -53,6 +53,11 @@ mkdir -p "$CONFIG_DIR/alacritty"
 ln -sf "$DOTFILES_DIR/alacritty/alacritty.toml" "$CONFIG_DIR/alacritty/alacritty.toml"
 log_success "Symlinked Alacritty config."
 
+# Zellij
+mkdir -p "$CONFIG_DIR/zellij"
+ln -sf "$DOTFILES_DIR/zellij/config.kdl" "$CONFIG_DIR/zellij/config.kdl"
+log_success "Symlinked Zellij config."
+
 # ==========================================
 # 4. Inject into Bashrc
 # ==========================================
