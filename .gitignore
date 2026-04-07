@@ -1,0 +1,7 @@
+# Ignore Mac/Linux system files
+.DS_Store
+*~
+*.swp
+
+# Ignore sensitive local environment variables
+.env
