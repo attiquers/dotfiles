@@ -6,7 +6,7 @@ source "$SCRIPT_DIR/common.sh"
 
 log_info "Installing system dependencies..."
 sudo apt update -y
-sudo apt install -y alacritty wget unzip fontconfig
+sudo apt install -y alacritty wget unzip fontconfig sesh
 log_success "System dependencies installed."
 
 if ! is_installed yazi; then
